@@ -1,0 +1,46 @@
+html, body {
+    margin: 10;
+    padding: 10;
+    background: cornsilk;
+    font-family: 'VT323', monospace;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    margin: 0 auto;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background: lightgreen;
+}
+
+.snake {
+    background-color: blue;
+}
+
+.apple {
+    background-color: red;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#start {
+    background: lightskyblue;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    padding: 0.5rem 1.75rem;
+    font-family: 'VT323', monospace;
+}
+
+h2 {
+    text-decoration: underline;
+}
